@@ -1,0 +1,56 @@
+
+/* Common Styles  */
+.highlight-color{
+    color:#0091f7;
+}
+
+/* Download Resume Button  */
+.resume-button{
+    background-color: #0091f7;
+    color: white;
+}
+
+
+/* Navigation Bar  */
+
+.navigation-link{
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover{
+    /* border-bottom: 2px solid black; */
+    color: #0091f7;
+    transition: 0.5s ease;
+    
+}
+
+/* main container  */
+.main-container{
+    min-height: 70vh;
+}
+.name{
+    font-size: 3.5rem;
+}
+
+/* main container image  */
+.main-image{
+    border-radius: 50%;
+}
+
+/* Skill Image Animation  */
+.card{
+    overflow: hidden;
+}
+.project-image:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+    
+}
+
+/* Social Links  */
+.social-link{
+    text-decoration: none;
+    color: black;
+}
